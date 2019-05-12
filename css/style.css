@@ -1,0 +1,275 @@
+*{padding: 0;margin: 0;}
+
+body {
+    text-align: center;
+    background-color: #3914AF;
+}
+
+.header {
+    grid-area: header;
+    background:		#062170;
+    color: white;
+    font-size: 45px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    grid-area: main;
+    background:#24587A#A65C00;
+    transition: 2s;
+}
+
+.aside {
+    grid-area: aside;
+    background: black;
+    color: white;
+    font-size: 50px;
+}
+
+
+.tdnone {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:"header header header"
+                        "main main main";
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    font-size: 28px;
+    text-align: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-itm2 {
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+}
+.grid-itm {
+    transition: 0.5s;
+    background:#A65C00;
+    width: 350px;
+    height: 350px;
+    margin: 5%;
+    border-radius: 20px;
+    color: white;
+}
+
+.grid-itm:hover {
+    transition: 0.5s;
+    background:#CCB610;
+    width: 320px;
+    height: 320px;
+    margin: 3%;
+    border-radius: 20px;
+    color: white;
+}
+
+.text-block {
+    font-size: 20px;
+    font-family:cursive;
+    text-align: justify;
+    padding: 5px;
+}
+
+.textblock1 {
+    min-height: 20%;
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 5%;
+    background: #A65C00;
+    border-radius: 20px;
+    transition: 1s;
+    color: white;
+    margin: 1%;
+    font-size: 23px;
+    text-align: justify;
+    padding: 1%;
+    font-family: Arial;
+}
+
+.textblock4 {
+    min-height: 5%;
+    width: 96%;
+    margin-left: 3%;
+    margin-top: 5%;
+    background: #A65C00;
+    border-radius: 20px;
+    transition: 1s;
+    color: white;
+    margin: 1%;
+    font-size: 23px;
+    text-align: justify;
+    padding: 1%;
+    font-family: Arial;
+    text-align: justify;
+}
+
+.textblock2 {
+    min-height: 20%;
+    width: 50%;
+    margin-right: 3%;
+    margin-top: 5%;
+    background: #A65C00;
+    border-radius: 20px;
+    transition: 1s;
+    color: white;
+    margin: 1%;
+    font-size: 23px;
+    text-align: justify;
+    padding: 1%;
+    font-family:Arial, sans-serif;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textblock3 {
+    display: grid;
+    min-height: 10%;
+    width: 95%;
+    margin-right: auto;
+    margin-left: 25%;
+    background:#A65C00;
+    border-radius: 20px;
+    transition: 1s;
+    color: black;
+    margin: 0.5%;
+    font-size: 23px;
+    text-align: justify;
+    padding: 1%;
+    font-family: Arial;
+    float: none;
+    transition: 0.6s;
+}
+
+.textblock3:hover {
+    background: black;
+    color:white;
+    transition: 0.6s;
+}
+
+.textblock3:active {
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.buttonA {
+    color: 
+}
+
+#bl1{
+    height: 400px;
+}
+
+#im1 {
+    width: 40%;
+}
+
+#im3 {
+    height: 600px;
+    width: 43%
+}
+
+.button1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    background: yellow;
+    color: white;
+    height: 50px;
+}
+
+#im4 {
+    margin-top: 1%;
+    width: 42%;
+    height: 650px;
+}
+
+#im5 {
+    height: 570px;
+}
+
+.imgr {
+    width: 40%;
+    float: left;
+    margin-top: 1%;
+    border-radius:20px;
+
+}
+
+.imgl {
+    width: 40%;
+    float: right; 
+    border-radius:20px;
+    height: 550px;
+}
+
+.spec1 {
+    padding: 2%;
+}
+
+.textblock1:hover {
+    margin-left: 4%;
+    width: 50%;
+    transition: 0.8s;
+}
+
+.textblock2:hover {
+    margin-right: 4%;
+    width: 50%;
+    transition: 0.8s;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.gifend {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
